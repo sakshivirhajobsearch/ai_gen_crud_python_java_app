@@ -1,4 +1,4 @@
-package ai.gen.controller;
+package com.ai.gen.controller;
 
 import java.util.HashMap;
 import java.util.List;
