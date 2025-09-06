@@ -1,11 +1,11 @@
-package aigenai.service;
+package com.ai.gen.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import ai.genai.model.Prompt;
+import com.ai.gen.model.Prompt;
 
 public class PromptService {
 	private Map<Integer, Prompt> prompts = new HashMap<>();

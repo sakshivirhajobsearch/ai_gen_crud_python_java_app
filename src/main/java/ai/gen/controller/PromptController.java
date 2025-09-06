@@ -1,4 +1,4 @@
-package ai.genai.controller;
+package ai.gen.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import ai.genai.model.Prompt;
-import aigenai.service.PromptService;
+import com.ai.gen.model.Prompt;
+import com.ai.gen.service.PromptService;
 
 @RestController
 @RequestMapping("/api/prompts")

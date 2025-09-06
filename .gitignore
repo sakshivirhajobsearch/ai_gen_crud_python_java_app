@@ -1,0 +1,54 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Environment files
+.env
+*.env
+
+# Output files
+*.out
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode or other editor config
+.vscode/
+.idea/
+
+# Data directory (optional - if data is generated dynamically)
+data/
+
+# Model or generated files
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.ckpt
+*.joblib
+
+# Testing cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Local database or pickle files
+*.db
+*.sqlite3
+*.json

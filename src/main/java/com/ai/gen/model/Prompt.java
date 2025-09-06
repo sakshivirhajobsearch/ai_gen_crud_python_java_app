@@ -1,4 +1,4 @@
-package ai.genai.model;
+package com.ai.gen.model;
 
 public class Prompt {
 	
